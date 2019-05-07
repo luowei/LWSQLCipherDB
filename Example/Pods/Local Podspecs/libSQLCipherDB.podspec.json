@@ -18,5 +18,14 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "libSQLCipherDB/Classes/**/*"
+  "source_files": "libSQLCipherDB/Classes/**/*",
+  "xcconfig": {
+    "OTHER_CFLAGS": "$(inherited) -DSQLITE_HAS_CODEC -DSQLITE_THREADSAFE -DSQLITE_TEMP_STORE=2 -DSQLCIPHER_CRYPTO_CC",
+    "OTHER_LDFLAGS": "$(inherited) -framework Security"
+  },
+  "dependencies": {
+    "SQLCipher": [
+
+    ]
+  }
 }

@@ -2,8 +2,6 @@
 #import "FMResultSet.h"
 #import "FMDatabasePool.h"
 
-#define DB_SECRETKEY @"luowei.wodedata.com"
-
 NS_ASSUME_NONNULL_BEGIN
 
 #if ! __has_feature(objc_arc)
@@ -226,6 +224,10 @@ typedef NS_ENUM(int, FMDBCheckpointMode) {
 /// Is the database open or not?
 
 @property (nonatomic) BOOL isOpen;
+
+
+//若SecretKey需要在外部设置，可以 hook 此方法
+- (NSString *)secretKey;
 
 /** Opening a new database connection
  

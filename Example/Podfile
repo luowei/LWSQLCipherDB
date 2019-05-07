@@ -5,6 +5,7 @@ platform :ios, '8.0'
 target 'libSQLCipherDB_Example' do
   pod 'libSQLCipherDB', :path => '../'
 
+  pod 'SQLCipher'
   # pod 'FMDB/SQLCipher'
 
   # target 'libSQLCipherDB_Tests' do

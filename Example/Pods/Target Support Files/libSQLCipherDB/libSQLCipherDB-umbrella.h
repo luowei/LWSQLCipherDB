@@ -16,11 +16,10 @@
 #import "FMDatabaseQueue.h"
 #import "FMDB.h"
 #import "FMResultSet.h"
-#import "LKDBColumnDes.h"
-#import "LKDBModel.h"
-#import "LKDBSQLState.h"
-#import "LKDBTool.h"
-#import "sqlite3.h"
+#import "LWDBColumnDes.h"
+#import "LWDBModel.h"
+#import "LWDBSQLState.h"
+#import "LWSQLCipherDBTool.h"
 
 FOUNDATION_EXPORT double libSQLCipherDBVersionNumber;
 FOUNDATION_EXPORT const unsigned char libSQLCipherDBVersionString[];

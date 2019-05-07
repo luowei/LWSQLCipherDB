@@ -1,16 +1,28 @@
 PODS:
-  - libSQLCipherDB (0.1.0)
+  - libSQLCipherDB (0.1.0):
+    - SQLCipher
+  - SQLCipher (4.1.0):
+    - SQLCipher/standard (= 4.1.0)
+  - SQLCipher/common (4.1.0)
+  - SQLCipher/standard (4.1.0):
+    - SQLCipher/common
 
 DEPENDENCIES:
   - libSQLCipherDB (from `../`)
+  - SQLCipher
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SQLCipher
 
 EXTERNAL SOURCES:
   libSQLCipherDB:
     :path: "../"
 
 SPEC CHECKSUMS:
-  libSQLCipherDB: 9fc3732c58f7000fae681f2bf0b928acd24499f1
+  libSQLCipherDB: 9a7850d45db61329c5d1f7d3e299e5d2ab4c4a7e
+  SQLCipher: efbdb52cdbe340bcd892b1b14297df4e07241b7f
 
-PODFILE CHECKSUM: 967b61c24ab0954fe9c5c94377a7d863c21d22f9
+PODFILE CHECKSUM: bb73a384382fb8b51af6b43e37815dec7c106d56
 
 COCOAPODS: 1.5.3

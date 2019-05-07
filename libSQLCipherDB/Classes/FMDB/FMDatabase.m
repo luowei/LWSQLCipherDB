@@ -1,4 +1,5 @@
 #import "FMDatabase.h"
+#import "sqlite3.h"
 #import <unistd.h>
 #import <objc/runtime.h>
 
@@ -160,6 +161,11 @@ NS_ASSUME_NONNULL_END
 
 #pragma mark Open and close database
 
+//若SecretKey需要在外部设置，可以 hook 此方法
+- (NSString *)secretKey {
+    return nil;
+}
+
 - (BOOL)open {
     if (_isOpen) {
         return YES;
@@ -177,6 +183,16 @@ NS_ASSUME_NONNULL_END
     if(err != SQLITE_OK) {
         NSLog(@"error opening!: %d", err);
         return NO;
+    }
+
+    //设置secretKey
+    NSString *secretKey = [self secretKey];
+    if(secretKey.length > 0){
+        [self setKey:secretKey];
+    }
+
+    else{ //不需要加密请注释掉这个else
+
     }
     
     if (_maxBusyRetryTimeInterval > 0.0) {
@@ -212,8 +228,12 @@ NS_ASSUME_NONNULL_END
         NSLog(@"error opening!: %d", err);
         return NO;
 
-    } else{ //不需要加密请注释掉这个else
-        [self setKey:DB_SECRETKEY];
+    }
+
+    //设置secretKey
+    NSString *secretKey = [self secretKey];
+    if(secretKey.length > 0){
+        [self setKey:secretKey];
     }
     
     if (_maxBusyRetryTimeInterval > 0.0) {
@@ -229,6 +249,7 @@ NS_ASSUME_NONNULL_END
     return NO;
 #endif
 }
+
 
 - (BOOL)close {
     

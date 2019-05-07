@@ -36,7 +36,20 @@ TODO: Add long description of the pod here.
   #   'libSQLCipherDB' => ['libSQLCipherDB/Assets/*.png']
   # }
 
+  # 参考：https://www.zetetic.net/sqlcipher/ios-tutorial/
+  s.xcconfig = {
+    'OTHER_CFLAGS' => '$(inherited) -DSQLITE_HAS_CODEC -DSQLITE_THREADSAFE -DSQLITE_TEMP_STORE=2 -DSQLCIPHER_CRYPTO_CC',
+    'OTHER_LDFLAGS' => '$(inherited) -framework Security'
+    # 'OTHER_CPPFLAGS' => '$(inherited) -I/usr/local/opt/openssl/include',
+    # 'OTHER_LDFLAGS' => '$(inherited) -L/usr/local/opt/openssl/lib -framework Security'
+  }
+
+
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+
+  # s.dependency 'SQLCipher', '4.0'
+  s.dependency 'SQLCipher'
+
 end
