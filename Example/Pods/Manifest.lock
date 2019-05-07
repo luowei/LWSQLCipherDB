@@ -1,0 +1,16 @@
+PODS:
+  - libSQLCipherDB (0.1.0)
+
+DEPENDENCIES:
+  - libSQLCipherDB (from `../`)
+
+EXTERNAL SOURCES:
+  libSQLCipherDB:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  libSQLCipherDB: 9fc3732c58f7000fae681f2bf0b928acd24499f1
+
+PODFILE CHECKSUM: 967b61c24ab0954fe9c5c94377a7d863c21d22f9
+
+COCOAPODS: 1.5.3

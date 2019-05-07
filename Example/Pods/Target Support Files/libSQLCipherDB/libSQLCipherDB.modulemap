@@ -1,0 +1,6 @@
+framework module libSQLCipherDB {
+  umbrella header "libSQLCipherDB-umbrella.h"
+
+  export *
+  module * { export * }
+}

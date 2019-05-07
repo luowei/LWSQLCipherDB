@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09AD3929962F1DD1CA4DBA6F96F32013 /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = BED4C78F2C4BF0E9339969CF6663F6A6 /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D47B8057EA592E49915E836D6E5314B /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = C3E738EE2ED68C7D1F8103BA598B1DAA /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FA56F62FB109B9D4C195859F4C439F9 /* Pods-libSQLCipherDB_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C67DF7E3E4929143281182B10EE6E4 /* Pods-libSQLCipherDB_Example-dummy.m */; };
+		16BFE47239EC8775AB70421FB749BA4B /* LKDBModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 89FE0DD1B628CB93B792A3C89E2E1FB4 /* LKDBModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B2F7917F52B24C1065227808126D18A /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9314AAD1D24DE8F9BCF853D318FB2956 /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C6CF003FF86492CF0C1736F3D2AAB63 /* libSQLCipherDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CAAB46700AF941ABE2590EA2102936 /* libSQLCipherDB-dummy.m */; };
+		27ABFFF432E88AB4C642D1CD57B58939 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2446D74F9D7A76213FB3A60D6DF182 /* FMDatabaseQueue.m */; };
+		2A31ACDA372580C324FE9D918FD8F80C /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 337CBBF51FA4A7F9CB425C3043B469FB /* FMResultSet.m */; };
+		2A8CF5F13DBA51A49462C95C0A5A7CE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		3033059C2634C94C53A555AE2F7A330F /* LKDBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F0C3720239A86773C64D2EC62623D4 /* LKDBModel.m */; };
+		36AC4880B1F1118FC5DA943F79770312 /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 18EA362065821D8D2CA739633064827C /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		370B4418FB7FEAE45800D9BA2DBAD246 /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B5692B45CE4157EFB64B62CA4CCE79D /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E7CEB729D13C1132754B4B6BDA1F0B2 /* LKDBColumnDes.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F78B1FB8458A177CF23F4C91E387C5 /* LKDBColumnDes.m */; };
+		5FEC62466052DE499FA15C3418A233C7 /* LKDBSQLState.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BF4BF16D53F43FB3E3B97B3DDC8748 /* LKDBSQLState.m */; };
+		659121A928968994FA7C84722C0A43E1 /* LKDBTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 844242E960533F6CF80EBFDE8AEA0917 /* LKDBTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B24EDBD85A5B0C9D5C339023CC1F953 /* LKDBTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C20A82EE3D9B2B277CB8BE07A5D5418 /* LKDBTool.m */; };
+		873A253FEF34EA562BCFD8893998D553 /* Pods-libSQLCipherDB_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85534B99F87208129E190DE61CA3E4A3 /* Pods-libSQLCipherDB_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87C32BB4D2C8D3A14E6D6B9E818B5330 /* LKDBSQLState.h in Headers */ = {isa = PBXBuildFile; fileRef = 22D4A9065A3CEC8E3A0451D93F260881 /* LKDBSQLState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A17FAD46F1FD4C018CFCDED464ABC7A /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B670F5D2011C92363DC8246961AE689D /* FMDatabaseAdditions.m */; };
+		9BB8E007300D8918DD5FB5251CF2A6E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		B52F1B9E7472D91A65932FAEDAAA9DF3 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4C80F34CB784C1FDD83C910EF2B715 /* FMDatabase.m */; };
+		BCDB5EF0402A1C3E94B7EB3A7349202F /* libSQLCipherDB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF684B3A0CCFDC71016E5EBBAA96FDA1 /* libSQLCipherDB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6C1CF97F8A13F2C78C20556FCEB20BA /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 113D0CCDF1D9C3448AABBDD815CE6405 /* sqlite3.c */; };
+		E16D3230F3C655696B79FB640FFC6D63 /* LKDBColumnDes.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AF1CF70E6030D891877C3191617403F /* LKDBColumnDes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E20DD87B52D08550A021294DFACC5BC4 /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B10F23953E8D6E328F9E1043C2DE573 /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E50EAB3C76C07062820AEF827534A77A /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B66CA73CD3D25F78F39DF9B8B8A29D6 /* FMDatabasePool.m */; };
+		F2871D92F5DDB3C6AC0C9C6BC7F6E579 /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = 956B750322A6ECDB99AF965CDDA46494 /* sqlite3.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4AAA2043157DE488E04C551248B950C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9B5D462AA0783A31C7A01B89EF412DC;
+			remoteInfo = libSQLCipherDB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04E00E81F21E9B73E9D3EFBCE2AFC852 /* Pods-libSQLCipherDB_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libSQLCipherDB_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0F2CEC6DF068782C745681591B68440A /* Pods-libSQLCipherDB_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-libSQLCipherDB_Example.modulemap"; sourceTree = "<group>"; };
+		113D0CCDF1D9C3448AABBDD815CE6405 /* sqlite3.c */ = {isa = PBXFileReference; includeInIndex = 1; path = sqlite3.c; sourceTree = "<group>"; };
+		18EA362065821D8D2CA739633064827C /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		1EFE6A797FD77BE7D0DB6EBC3DF4E426 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		22D4A9065A3CEC8E3A0451D93F260881 /* LKDBSQLState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKDBSQLState.h; path = libSQLCipherDB/Classes/LKDBSQLState.h; sourceTree = "<group>"; };
+		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2AE9AE96230414351556CA51BADEE9C6 /* libSQLCipherDB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = libSQLCipherDB.modulemap; sourceTree = "<group>"; };
+		337CBBF51FA4A7F9CB425C3043B469FB /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		36254D8C91664306C4FCADBFEF3DB37E /* libSQLCipherDB.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = libSQLCipherDB.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3B66CA73CD3D25F78F39DF9B8B8A29D6 /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		41F78B1FB8458A177CF23F4C91E387C5 /* LKDBColumnDes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKDBColumnDes.m; path = libSQLCipherDB/Classes/LKDBColumnDes.m; sourceTree = "<group>"; };
+		47C67DF7E3E4929143281182B10EE6E4 /* Pods-libSQLCipherDB_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-libSQLCipherDB_Example-dummy.m"; sourceTree = "<group>"; };
+		5AF1CF70E6030D891877C3191617403F /* LKDBColumnDes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKDBColumnDes.h; path = libSQLCipherDB/Classes/LKDBColumnDes.h; sourceTree = "<group>"; };
+		6B10F23953E8D6E328F9E1043C2DE573 /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		7AE85591CD1FF14E3508F5C130EEB5F5 /* libSQLCipherDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libSQLCipherDB-prefix.pch"; sourceTree = "<group>"; };
+		7C20A82EE3D9B2B277CB8BE07A5D5418 /* LKDBTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKDBTool.m; path = libSQLCipherDB/Classes/LKDBTool.m; sourceTree = "<group>"; };
+		80675AB6BDAF7DEFD271AE1345C77133 /* libSQLCipherDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = libSQLCipherDB.framework; path = libSQLCipherDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		844242E960533F6CF80EBFDE8AEA0917 /* LKDBTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKDBTool.h; path = libSQLCipherDB/Classes/LKDBTool.h; sourceTree = "<group>"; };
+		85534B99F87208129E190DE61CA3E4A3 /* Pods-libSQLCipherDB_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-libSQLCipherDB_Example-umbrella.h"; sourceTree = "<group>"; };
+		8912F884D16CF0BD35E0F604757875E6 /* Pods-libSQLCipherDB_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libSQLCipherDB_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		89FE0DD1B628CB93B792A3C89E2E1FB4 /* LKDBModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKDBModel.h; path = libSQLCipherDB/Classes/LKDBModel.h; sourceTree = "<group>"; };
+		8FF402577D49DF614B63F53971FB1E81 /* Pods_libSQLCipherDB_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_libSQLCipherDB_Example.framework; path = "Pods-libSQLCipherDB_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9314AAD1D24DE8F9BCF853D318FB2956 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		956B750322A6ECDB99AF965CDDA46494 /* sqlite3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = sqlite3.h; sourceTree = "<group>"; };
+		988BACCCD255E675FCC7AF9DA31D2CCF /* Pods-libSQLCipherDB_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-libSQLCipherDB_Example-resources.sh"; sourceTree = "<group>"; };
+		9B5692B45CE4157EFB64B62CA4CCE79D /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		A074C17126F3817A9AFD8E2157D6E8B6 /* Pods-libSQLCipherDB_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-libSQLCipherDB_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A49023FF77296EE0B8B8F9815BBF4FC6 /* Pods-libSQLCipherDB_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libSQLCipherDB_Example.release.xcconfig"; sourceTree = "<group>"; };
+		AFE33E5CB5F3714C0204DE6AEF49793F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4CAAB46700AF941ABE2590EA2102936 /* libSQLCipherDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "libSQLCipherDB-dummy.m"; sourceTree = "<group>"; };
+		B670F5D2011C92363DC8246961AE689D /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		BED4C78F2C4BF0E9339969CF6663F6A6 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		C3E738EE2ED68C7D1F8103BA598B1DAA /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		C6BF4BF16D53F43FB3E3B97B3DDC8748 /* LKDBSQLState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKDBSQLState.m; path = libSQLCipherDB/Classes/LKDBSQLState.m; sourceTree = "<group>"; };
+		C8F0C3720239A86773C64D2EC62623D4 /* LKDBModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKDBModel.m; path = libSQLCipherDB/Classes/LKDBModel.m; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CFA0CE8729C32D2195BF2365745B048D /* Pods-libSQLCipherDB_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-libSQLCipherDB_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D346756EFC24A030B35A94198BC73AB1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D3D89F01EF4B519E7A363ABB777E7702 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF4C80F34CB784C1FDD83C910EF2B715 /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		E5DE6AF375392DA4D732AF652A7B4E71 /* libSQLCipherDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libSQLCipherDB.xcconfig; sourceTree = "<group>"; };
+		EC2446D74F9D7A76213FB3A60D6DF182 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		EF684B3A0CCFDC71016E5EBBAA96FDA1 /* libSQLCipherDB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libSQLCipherDB-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E2F427B6DF455283B7A6E3646ADFCFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BB8E007300D8918DD5FB5251CF2A6E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C119FE5DBCC5EDC4A13B9CA8F6C76382 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A8CF5F13DBA51A49462C95C0A5A7CE3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02AD0FD2FE1FE92493ACC7AB8820CC24 /* Pods-libSQLCipherDB_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D3D89F01EF4B519E7A363ABB777E7702 /* Info.plist */,
+				0F2CEC6DF068782C745681591B68440A /* Pods-libSQLCipherDB_Example.modulemap */,
+				A074C17126F3817A9AFD8E2157D6E8B6 /* Pods-libSQLCipherDB_Example-acknowledgements.markdown */,
+				8912F884D16CF0BD35E0F604757875E6 /* Pods-libSQLCipherDB_Example-acknowledgements.plist */,
+				47C67DF7E3E4929143281182B10EE6E4 /* Pods-libSQLCipherDB_Example-dummy.m */,
+				CFA0CE8729C32D2195BF2365745B048D /* Pods-libSQLCipherDB_Example-frameworks.sh */,
+				988BACCCD255E675FCC7AF9DA31D2CCF /* Pods-libSQLCipherDB_Example-resources.sh */,
+				85534B99F87208129E190DE61CA3E4A3 /* Pods-libSQLCipherDB_Example-umbrella.h */,
+				04E00E81F21E9B73E9D3EFBCE2AFC852 /* Pods-libSQLCipherDB_Example.debug.xcconfig */,
+				A49023FF77296EE0B8B8F9815BBF4FC6 /* Pods-libSQLCipherDB_Example.release.xcconfig */,
+			);
+			name = "Pods-libSQLCipherDB_Example";
+			path = "Target Support Files/Pods-libSQLCipherDB_Example";
+			sourceTree = "<group>";
+		};
+		115B6599C8EF539F8A902D968458F14C /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				9B5692B45CE4157EFB64B62CA4CCE79D /* FMDatabase.h */,
+				DF4C80F34CB784C1FDD83C910EF2B715 /* FMDatabase.m */,
+				9314AAD1D24DE8F9BCF853D318FB2956 /* FMDatabaseAdditions.h */,
+				B670F5D2011C92363DC8246961AE689D /* FMDatabaseAdditions.m */,
+				18EA362065821D8D2CA739633064827C /* FMDatabasePool.h */,
+				3B66CA73CD3D25F78F39DF9B8B8A29D6 /* FMDatabasePool.m */,
+				BED4C78F2C4BF0E9339969CF6663F6A6 /* FMDatabaseQueue.h */,
+				EC2446D74F9D7A76213FB3A60D6DF182 /* FMDatabaseQueue.m */,
+				C3E738EE2ED68C7D1F8103BA598B1DAA /* FMDB.h */,
+				6B10F23953E8D6E328F9E1043C2DE573 /* FMResultSet.h */,
+				337CBBF51FA4A7F9CB425C3043B469FB /* FMResultSet.m */,
+			);
+			name = FMDB;
+			path = libSQLCipherDB/Classes/FMDB;
+			sourceTree = "<group>";
+		};
+		15AE55D5FA617179A99A310B2A2CD3FB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				36254D8C91664306C4FCADBFEF3DB37E /* libSQLCipherDB.podspec */,
+				1EFE6A797FD77BE7D0DB6EBC3DF4E426 /* LICENSE */,
+				D346756EFC24A030B35A94198BC73AB1 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		62BF31E10F9BC929AD5264FD43183086 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80675AB6BDAF7DEFD271AE1345C77133 /* libSQLCipherDB.framework */,
+				8FF402577D49DF614B63F53971FB1E81 /* Pods_libSQLCipherDB_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C4AD584A205A6254A0D3BC2AE228936 /* libSQLCipherDB */ = {
+			isa = PBXGroup;
+			children = (
+				5AF1CF70E6030D891877C3191617403F /* LKDBColumnDes.h */,
+				41F78B1FB8458A177CF23F4C91E387C5 /* LKDBColumnDes.m */,
+				89FE0DD1B628CB93B792A3C89E2E1FB4 /* LKDBModel.h */,
+				C8F0C3720239A86773C64D2EC62623D4 /* LKDBModel.m */,
+				22D4A9065A3CEC8E3A0451D93F260881 /* LKDBSQLState.h */,
+				C6BF4BF16D53F43FB3E3B97B3DDC8748 /* LKDBSQLState.m */,
+				844242E960533F6CF80EBFDE8AEA0917 /* LKDBTool.h */,
+				7C20A82EE3D9B2B277CB8BE07A5D5418 /* LKDBTool.m */,
+				115B6599C8EF539F8A902D968458F14C /* FMDB */,
+				15AE55D5FA617179A99A310B2A2CD3FB /* Pod */,
+				D9A18A53D2DE77F88632E278CAC31F23 /* SQLCipher */,
+				AFE194512D15BD54530D57B7140A7620 /* Support Files */,
+			);
+			name = libSQLCipherDB;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		935AF00C7F1D70B836DC002D3BEE1661 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				02AD0FD2FE1FE92493ACC7AB8820CC24 /* Pods-libSQLCipherDB_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		AFE194512D15BD54530D57B7140A7620 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFE33E5CB5F3714C0204DE6AEF49793F /* Info.plist */,
+				2AE9AE96230414351556CA51BADEE9C6 /* libSQLCipherDB.modulemap */,
+				E5DE6AF375392DA4D732AF652A7B4E71 /* libSQLCipherDB.xcconfig */,
+				B4CAAB46700AF941ABE2590EA2102936 /* libSQLCipherDB-dummy.m */,
+				7AE85591CD1FF14E3508F5C130EEB5F5 /* libSQLCipherDB-prefix.pch */,
+				EF684B3A0CCFDC71016E5EBBAA96FDA1 /* libSQLCipherDB-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/libSQLCipherDB";
+			sourceTree = "<group>";
+		};
+		CB5AA220FB2DC8BB96B982FCF9A56D5A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C4AD584A205A6254A0D3BC2AE228936 /* libSQLCipherDB */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				24390EFD555DD124430DFF9724065945 /* Podfile */,
+				CB5AA220FB2DC8BB96B982FCF9A56D5A /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				62BF31E10F9BC929AD5264FD43183086 /* Products */,
+				935AF00C7F1D70B836DC002D3BEE1661 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9A18A53D2DE77F88632E278CAC31F23 /* SQLCipher */ = {
+			isa = PBXGroup;
+			children = (
+				113D0CCDF1D9C3448AABBDD815CE6405 /* sqlite3.c */,
+				956B750322A6ECDB99AF965CDDA46494 /* sqlite3.h */,
+			);
+			name = SQLCipher;
+			path = libSQLCipherDB/Classes/SQLCipher;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3DC8703A76D33C47508189D026A02212 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				873A253FEF34EA562BCFD8893998D553 /* Pods-libSQLCipherDB_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FE9A23C47A02E7067D761CD292229BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370B4418FB7FEAE45800D9BA2DBAD246 /* FMDatabase.h in Headers */,
+				1B2F7917F52B24C1065227808126D18A /* FMDatabaseAdditions.h in Headers */,
+				36AC4880B1F1118FC5DA943F79770312 /* FMDatabasePool.h in Headers */,
+				09AD3929962F1DD1CA4DBA6F96F32013 /* FMDatabaseQueue.h in Headers */,
+				0D47B8057EA592E49915E836D6E5314B /* FMDB.h in Headers */,
+				E20DD87B52D08550A021294DFACC5BC4 /* FMResultSet.h in Headers */,
+				BCDB5EF0402A1C3E94B7EB3A7349202F /* libSQLCipherDB-umbrella.h in Headers */,
+				E16D3230F3C655696B79FB640FFC6D63 /* LKDBColumnDes.h in Headers */,
+				16BFE47239EC8775AB70421FB749BA4B /* LKDBModel.h in Headers */,
+				87C32BB4D2C8D3A14E6D6B9E818B5330 /* LKDBSQLState.h in Headers */,
+				659121A928968994FA7C84722C0A43E1 /* LKDBTool.h in Headers */,
+				F2871D92F5DDB3C6AC0C9C6BC7F6E579 /* sqlite3.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0465E427B73A9A8AD43280426686EF1C /* Pods-libSQLCipherDB_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8F0E36031EC3079FE16C1C7CD913875 /* Build configuration list for PBXNativeTarget "Pods-libSQLCipherDB_Example" */;
+			buildPhases = (
+				3DC8703A76D33C47508189D026A02212 /* Headers */,
+				E06911F99E31E8C4B29CE8813447EF59 /* Sources */,
+				C119FE5DBCC5EDC4A13B9CA8F6C76382 /* Frameworks */,
+				C43BC1FE5CB65FB3DAB59882819B3D4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FA831905EE5F2FCF47C78988BB50B25 /* PBXTargetDependency */,
+			);
+			name = "Pods-libSQLCipherDB_Example";
+			productName = "Pods-libSQLCipherDB_Example";
+			productReference = 8FF402577D49DF614B63F53971FB1E81 /* Pods_libSQLCipherDB_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F9B5D462AA0783A31C7A01B89EF412DC /* libSQLCipherDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAA519E6850CAF3B12D0CEF26AD66ECE /* Build configuration list for PBXNativeTarget "libSQLCipherDB" */;
+			buildPhases = (
+				4FE9A23C47A02E7067D761CD292229BF /* Headers */,
+				9244EF85815D5D475168D9F059BD4B8B /* Sources */,
+				0E2F427B6DF455283B7A6E3646ADFCFA /* Frameworks */,
+				F21EA6490C5F35EB12B451122D2C9516 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libSQLCipherDB;
+			productName = libSQLCipherDB;
+			productReference = 80675AB6BDAF7DEFD271AE1345C77133 /* libSQLCipherDB.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 62BF31E10F9BC929AD5264FD43183086 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9B5D462AA0783A31C7A01B89EF412DC /* libSQLCipherDB */,
+				0465E427B73A9A8AD43280426686EF1C /* Pods-libSQLCipherDB_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C43BC1FE5CB65FB3DAB59882819B3D4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F21EA6490C5F35EB12B451122D2C9516 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9244EF85815D5D475168D9F059BD4B8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B52F1B9E7472D91A65932FAEDAAA9DF3 /* FMDatabase.m in Sources */,
+				9A17FAD46F1FD4C018CFCDED464ABC7A /* FMDatabaseAdditions.m in Sources */,
+				E50EAB3C76C07062820AEF827534A77A /* FMDatabasePool.m in Sources */,
+				27ABFFF432E88AB4C642D1CD57B58939 /* FMDatabaseQueue.m in Sources */,
+				2A31ACDA372580C324FE9D918FD8F80C /* FMResultSet.m in Sources */,
+				1C6CF003FF86492CF0C1736F3D2AAB63 /* libSQLCipherDB-dummy.m in Sources */,
+				3E7CEB729D13C1132754B4B6BDA1F0B2 /* LKDBColumnDes.m in Sources */,
+				3033059C2634C94C53A555AE2F7A330F /* LKDBModel.m in Sources */,
+				5FEC62466052DE499FA15C3418A233C7 /* LKDBSQLState.m in Sources */,
+				6B24EDBD85A5B0C9D5C339023CC1F953 /* LKDBTool.m in Sources */,
+				D6C1CF97F8A13F2C78C20556FCEB20BA /* sqlite3.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E06911F99E31E8C4B29CE8813447EF59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FA56F62FB109B9D4C195859F4C439F9 /* Pods-libSQLCipherDB_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0FA831905EE5F2FCF47C78988BB50B25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libSQLCipherDB;
+			target = F9B5D462AA0783A31C7A01B89EF412DC /* libSQLCipherDB */;
+			targetProxy = B4AAA2043157DE488E04C551248B950C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13F90F484121FEB3339B15B27F26E4EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04E00E81F21E9B73E9D3EFBCE2AFC852 /* Pods-libSQLCipherDB_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-libSQLCipherDB_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-libSQLCipherDB_Example/Pods-libSQLCipherDB_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2898AD97CCC6D0C19A4D896846E8CD18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5DE6AF375392DA4D732AF652A7B4E71 /* libSQLCipherDB.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/libSQLCipherDB/libSQLCipherDB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/libSQLCipherDB/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/libSQLCipherDB/libSQLCipherDB.modulemap";
+				PRODUCT_MODULE_NAME = libSQLCipherDB;
+				PRODUCT_NAME = libSQLCipherDB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5C3A1FACC2FE90D736B9AB148144499D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A49023FF77296EE0B8B8F9815BBF4FC6 /* Pods-libSQLCipherDB_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-libSQLCipherDB_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-libSQLCipherDB_Example/Pods-libSQLCipherDB_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5EA5006381E12BC9AA7DEEBC8BCE4905 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B64E2C722A3EAD054D380F489370F012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E8FF83430ED2715C263C24B91049AAB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5DE6AF375392DA4D732AF652A7B4E71 /* libSQLCipherDB.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/libSQLCipherDB/libSQLCipherDB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/libSQLCipherDB/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/libSQLCipherDB/libSQLCipherDB.modulemap";
+				PRODUCT_MODULE_NAME = libSQLCipherDB;
+				PRODUCT_NAME = libSQLCipherDB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B64E2C722A3EAD054D380F489370F012 /* Debug */,
+				5EA5006381E12BC9AA7DEEBC8BCE4905 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8F0E36031EC3079FE16C1C7CD913875 /* Build configuration list for PBXNativeTarget "Pods-libSQLCipherDB_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13F90F484121FEB3339B15B27F26E4EF /* Debug */,
+				5C3A1FACC2FE90D736B9AB148144499D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAA519E6850CAF3B12D0CEF26AD66ECE /* Build configuration list for PBXNativeTarget "libSQLCipherDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8FF83430ED2715C263C24B91049AAB0 /* Debug */,
+				2898AD97CCC6D0C19A4D896846E8CD18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
