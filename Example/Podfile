@@ -5,9 +5,11 @@ platform :ios, '8.0'
 target 'libSQLCipherDB_Example' do
   pod 'libSQLCipherDB', :path => '../'
 
-  target 'libSQLCipherDB_Tests' do
-    inherit! :search_paths
+  # pod 'FMDB/SQLCipher'
 
-    
-  end
+  # target 'libSQLCipherDB_Tests' do
+  #   inherit! :search_paths
+  #
+  # end
+
 end
