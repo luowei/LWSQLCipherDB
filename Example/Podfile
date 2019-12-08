@@ -2,13 +2,13 @@ use_frameworks!
 
 platform :ios, '8.0'
 
-target 'libSQLCipherDB_Example' do
-  pod 'libSQLCipherDB', :path => '../'
+target 'LWSQLCipherDB_Example' do
+  pod 'LWSQLCipherDB', :path => '../'
 
   pod 'SQLCipher'
   # pod 'FMDB/SQLCipher'
 
-  # target 'libSQLCipherDB_Tests' do
+  # target 'LWSQLCipherDB_Tests' do
   #   inherit! :search_paths
   #
   # end

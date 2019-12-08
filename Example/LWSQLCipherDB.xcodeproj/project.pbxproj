@@ -22,7 +22,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		D302EE03FD407C60FD34E746 /* Pods_libSQLCipherDB_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C67739E87CB60FE5C904B50 /* Pods_libSQLCipherDB_Example.framework */; };
+		E988E9ECD2CA43AA6DB7335F /* Pods_LWSQLCipherDB_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DB09107B6DB101CD2D954FC /* Pods_LWSQLCipherDB_Example.framework */; };
 		EA568E7E2281BC0E004340CC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA568E7D2281BC0D004340CC /* Security.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,38 +32,40 @@
 			containerPortal = 6003F582195388D10070C39A /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6003F589195388D20070C39A;
-			remoteInfo = libSQLCipherDB;
+			remoteInfo = LWSQLCipherDB;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C67739E87CB60FE5C904B50 /* Pods_libSQLCipherDB_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_libSQLCipherDB_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0FC421728B8E6B2BC05F2FD8 /* libSQLCipherDB.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = libSQLCipherDB.podspec; path = ../libSQLCipherDB.podspec; sourceTree = "<group>"; };
-		3DBA814903889A8D23D101CB /* Pods_libSQLCipherDB_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_libSQLCipherDB_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FC421728B8E6B2BC05F2FD8 /* LWSQLCipherDB.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LWSQLCipherDB.podspec; path = ../LWSQLCipherDB.podspec; sourceTree = "<group>"; };
+		3DBA814903889A8D23D101CB /* Pods_LWSQLCipherDB_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LWSQLCipherDB_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A09C2E0F0EE1183CF3391EA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* libSQLCipherDB_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = libSQLCipherDB_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DB09107B6DB101CD2D954FC /* Pods_LWSQLCipherDB_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LWSQLCipherDB_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* LWSQLCipherDB_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LWSQLCipherDB_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F595195388D20070C39A /* libSQLCipherDB-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "libSQLCipherDB-Info.plist"; sourceTree = "<group>"; };
+		6003F595195388D20070C39A /* LWSQLCipherDB-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LWSQLCipherDB-Info.plist"; sourceTree = "<group>"; };
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6003F59B195388D20070C39A /* libSQLCipherDB-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "libSQLCipherDB-Prefix.pch"; sourceTree = "<group>"; };
+		6003F59B195388D20070C39A /* LWSQLCipherDB-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LWSQLCipherDB-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* LWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* LWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWAppDelegate.m; sourceTree = "<group>"; };
 		6003F5A5195388D20070C39A /* LWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* LWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* libSQLCipherDB_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = libSQLCipherDB_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* LWSQLCipherDB_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LWSQLCipherDB_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7DB48D3DDDD9DEAB1715801B /* Pods-libSQLCipherDB_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libSQLCipherDB_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-libSQLCipherDB_Example/Pods-libSQLCipherDB_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7561D72687800C811AA21D0F /* Pods-LWSQLCipherDB_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWSQLCipherDB_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LWSQLCipherDB_Example/Pods-LWSQLCipherDB_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7DB48D3DDDD9DEAB1715801B /* Pods-LWSQLCipherDB_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWSQLCipherDB_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LWSQLCipherDB_Example/Pods-LWSQLCipherDB_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		82DD84C885DB1D642653FB91 /* Pods-LWSQLCipherDB_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWSQLCipherDB_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LWSQLCipherDB_Example/Pods-LWSQLCipherDB_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9FF1E880E1C5EDD6C04C0462 /* Pods-libSQLCipherDB_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libSQLCipherDB_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-libSQLCipherDB_Example/Pods-libSQLCipherDB_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9FF1E880E1C5EDD6C04C0462 /* Pods-LWSQLCipherDB_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWSQLCipherDB_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LWSQLCipherDB_Example/Pods-LWSQLCipherDB_Example.release.xcconfig"; sourceTree = "<group>"; };
 		EA568E7D2281BC0D004340CC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		F7780D49F3AF14F416A78A3A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +79,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				D302EE03FD407C60FD34E746 /* Pods_libSQLCipherDB_Example.framework in Frameworks */,
+				E988E9ECD2CA43AA6DB7335F /* Pods_LWSQLCipherDB_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
-				6003F593195388D20070C39A /* Example for libSQLCipherDB */,
+				6003F593195388D20070C39A /* Example for LWSQLCipherDB */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
@@ -109,8 +111,8 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* libSQLCipherDB_Example.app */,
-				6003F5AE195388D20070C39A /* libSQLCipherDB_Tests.xctest */,
+				6003F58A195388D20070C39A /* LWSQLCipherDB_Example.app */,
+				6003F5AE195388D20070C39A /* LWSQLCipherDB_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,13 +125,13 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				0C67739E87CB60FE5C904B50 /* Pods_libSQLCipherDB_Example.framework */,
-				3DBA814903889A8D23D101CB /* Pods_libSQLCipherDB_Tests.framework */,
+				3DBA814903889A8D23D101CB /* Pods_LWSQLCipherDB_Tests.framework */,
+				5DB09107B6DB101CD2D954FC /* Pods_LWSQLCipherDB_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6003F593195388D20070C39A /* Example for libSQLCipherDB */ = {
+		6003F593195388D20070C39A /* Example for LWSQLCipherDB */ = {
 			isa = PBXGroup;
 			children = (
 				6003F59C195388D20070C39A /* LWAppDelegate.h */,
@@ -141,17 +143,17 @@
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
-			name = "Example for libSQLCipherDB";
-			path = libSQLCipherDB;
+			name = "Example for LWSQLCipherDB";
+			path = LWSQLCipherDB;
 			sourceTree = "<group>";
 		};
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6003F595195388D20070C39A /* libSQLCipherDB-Info.plist */,
+				6003F595195388D20070C39A /* LWSQLCipherDB-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
-				6003F59B195388D20070C39A /* libSQLCipherDB-Prefix.pch */,
+				6003F59B195388D20070C39A /* LWSQLCipherDB-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -178,7 +180,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				0FC421728B8E6B2BC05F2FD8 /* libSQLCipherDB.podspec */,
+				0FC421728B8E6B2BC05F2FD8 /* LWSQLCipherDB.podspec */,
 				F7780D49F3AF14F416A78A3A /* README.md */,
 				5A09C2E0F0EE1183CF3391EA /* LICENSE */,
 			);
@@ -188,8 +190,10 @@
 		8C2464467CB6D9DDEAF42A6E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7DB48D3DDDD9DEAB1715801B /* Pods-libSQLCipherDB_Example.debug.xcconfig */,
-				9FF1E880E1C5EDD6C04C0462 /* Pods-libSQLCipherDB_Example.release.xcconfig */,
+				7DB48D3DDDD9DEAB1715801B /* Pods-LWSQLCipherDB_Example.debug.xcconfig */,
+				9FF1E880E1C5EDD6C04C0462 /* Pods-LWSQLCipherDB_Example.release.xcconfig */,
+				82DD84C885DB1D642653FB91 /* Pods-LWSQLCipherDB_Example.debug.xcconfig */,
+				7561D72687800C811AA21D0F /* Pods-LWSQLCipherDB_Example.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -197,9 +201,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6003F589195388D20070C39A /* libSQLCipherDB_Example */ = {
+		6003F589195388D20070C39A /* LWSQLCipherDB_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "libSQLCipherDB_Example" */;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "LWSQLCipherDB_Example" */;
 			buildPhases = (
 				8FAD03364E7D48C066A5B1D6 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
@@ -211,14 +215,14 @@
 			);
 			dependencies = (
 			);
-			name = libSQLCipherDB_Example;
-			productName = libSQLCipherDB;
-			productReference = 6003F58A195388D20070C39A /* libSQLCipherDB_Example.app */;
+			name = LWSQLCipherDB_Example;
+			productName = LWSQLCipherDB;
+			productReference = 6003F58A195388D20070C39A /* LWSQLCipherDB_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6003F5AD195388D20070C39A /* libSQLCipherDB_Tests */ = {
+		6003F5AD195388D20070C39A /* LWSQLCipherDB_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "libSQLCipherDB_Tests" */;
+			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "LWSQLCipherDB_Tests" */;
 			buildPhases = (
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
@@ -229,9 +233,9 @@
 			dependencies = (
 				6003F5B4195388D20070C39A /* PBXTargetDependency */,
 			);
-			name = libSQLCipherDB_Tests;
-			productName = libSQLCipherDBTests;
-			productReference = 6003F5AE195388D20070C39A /* libSQLCipherDB_Tests.xctest */;
+			name = LWSQLCipherDB_Tests;
+			productName = LWSQLCipherDBTests;
+			productReference = 6003F5AE195388D20070C39A /* LWSQLCipherDB_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -253,11 +257,12 @@
 					};
 				};
 			};
-			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "libSQLCipherDB" */;
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "LWSQLCipherDB" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -266,8 +271,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6003F589195388D20070C39A /* libSQLCipherDB_Example */,
-				6003F5AD195388D20070C39A /* libSQLCipherDB_Tests */,
+				6003F589195388D20070C39A /* LWSQLCipherDB_Example */,
+				6003F5AD195388D20070C39A /* LWSQLCipherDB_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -310,7 +315,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-libSQLCipherDB_Example-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-LWSQLCipherDB_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -322,23 +327,19 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-libSQLCipherDB_Example/Pods-libSQLCipherDB_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-LWSQLCipherDB_Example/Pods-LWSQLCipherDB_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LWSQLCipherDB/LWSQLCipherDB.framework",
 				"${BUILT_PRODUCTS_DIR}/SQLCipher/SQLCipher.framework",
-				"${BUILT_PRODUCTS_DIR}/libSQLCipherDB/libSQLCipherDB.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LWSQLCipherDB.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLCipher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libSQLCipherDB.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-libSQLCipherDB_Example/Pods-libSQLCipherDB_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LWSQLCipherDB_Example/Pods-LWSQLCipherDB_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -367,7 +368,7 @@
 /* Begin PBXTargetDependency section */
 		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6003F589195388D20070C39A /* libSQLCipherDB_Example */;
+			target = 6003F589195388D20070C39A /* LWSQLCipherDB_Example */;
 			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -475,16 +476,16 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DB48D3DDDD9DEAB1715801B /* Pods-libSQLCipherDB_Example.debug.xcconfig */;
+			baseConfigurationReference = 82DD84C885DB1D642653FB91 /* Pods-LWSQLCipherDB_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G3A2KYKYBU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "libSQLCipherDB/libSQLCipherDB-Prefix.pch";
-				INFOPLIST_FILE = "libSQLCipherDB/libSQLCipherDB-Info.plist";
+				GCC_PREFIX_HEADER = "LWSQLCipherDB/LWSQLCipherDB-Prefix.pch";
+				INFOPLIST_FILE = "LWSQLCipherDB/LWSQLCipherDB-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wodedata.libSQLCipherDB-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wodedata.LWSQLCipherDB-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -492,16 +493,16 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FF1E880E1C5EDD6C04C0462 /* Pods-libSQLCipherDB_Example.release.xcconfig */;
+			baseConfigurationReference = 7561D72687800C811AA21D0F /* Pods-LWSQLCipherDB_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G3A2KYKYBU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "libSQLCipherDB/libSQLCipherDB-Prefix.pch";
-				INFOPLIST_FILE = "libSQLCipherDB/libSQLCipherDB-Info.plist";
+				GCC_PREFIX_HEADER = "LWSQLCipherDB/LWSQLCipherDB-Prefix.pch";
+				INFOPLIST_FILE = "LWSQLCipherDB/LWSQLCipherDB-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wodedata.libSQLCipherDB-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wodedata.LWSQLCipherDB-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -526,7 +527,7 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/libSQLCipherDB_Example.app/libSQLCipherDB_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LWSQLCipherDB_Example.app/LWSQLCipherDB_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -546,7 +547,7 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/libSQLCipherDB_Example.app/libSQLCipherDB_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LWSQLCipherDB_Example.app/LWSQLCipherDB_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -554,7 +555,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6003F585195388D10070C39A /* Build configuration list for PBXProject "libSQLCipherDB" */ = {
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "LWSQLCipherDB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5BD195388D20070C39A /* Debug */,
@@ -563,7 +564,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "libSQLCipherDB_Example" */ = {
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "LWSQLCipherDB_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5C0195388D20070C39A /* Debug */,
@@ -572,7 +573,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "libSQLCipherDB_Tests" */ = {
+		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "LWSQLCipherDB_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5C3195388D20070C39A /* Debug */,

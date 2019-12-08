@@ -1,9 +1,9 @@
 {
-  "name": "libSQLCipherDB",
+  "name": "LWSQLCipherDB",
   "version": "0.1.0",
-  "summary": "A short description of libSQLCipherDB.",
+  "summary": "A short description of LWSQLCipherDB.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/luowei/libSQLCipherDB",
+  "homepage": "https://github.com/luowei/LWSQLCipherDB",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,13 +12,13 @@
     "luowei": "luowei@wodedata.com"
   },
   "source": {
-    "git": "https://github.com/luowei/libSQLCipherDB.git",
+    "git": "https://github.com/luowei/LWSQLCipherDB.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "libSQLCipherDB/Classes/**/*",
+  "source_files": "LWSQLCipherDB/Classes/**/*",
   "xcconfig": {
     "OTHER_CFLAGS": "$(inherited) -DSQLITE_HAS_CODEC -DSQLITE_THREADSAFE -DSQLITE_TEMP_STORE=2 -DSQLCIPHER_CRYPTO_CC",
     "OTHER_LDFLAGS": "$(inherited) -framework Security"
