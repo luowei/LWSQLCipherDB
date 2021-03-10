@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'LWSQLCipherDB'
   s.version          = '1.0.0'
-  s.summary          = 'A short description of LWSQLCipherDB.'
+  s.summary          = '一个封装于FMDB 与 SQLCipher 的处理加密sqlite数据组件.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,15 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+LWSQLCipherDB，一个封装于FMDB 与 SQLCipher 的处理加密sqlite数据组件.
                        DESC
 
-  s.homepage         = 'https://gitlab.com/ioslibraries1/libsqlcipherdb.git'
+  s.homepage         = 'https://github.com/luowei/LWSQLCipherDB'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'luowei' => 'luowei@wodedata.com' }
-  s.source           = { :git => 'https://gitlab.com/ioslibraries1/libsqlcipherdb.git' }
+  s.source           = { :git => 'https://github.com/luowei/LWSQLCipherDB.git'}
+  # s.source           = { :git => 'https://gitlab.com/ioslibraries1/libsqlcipherdb.git' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
