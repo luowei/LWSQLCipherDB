@@ -1,10 +1,10 @@
 PODS:
-  - LWSQLCipherDB (0.1.0):
+  - LWSQLCipherDB (1.0.0):
     - SQLCipher
-  - SQLCipher (4.1.0):
-    - SQLCipher/standard (= 4.1.0)
-  - SQLCipher/common (4.1.0)
-  - SQLCipher/standard (4.1.0):
+  - SQLCipher (4.5.0):
+    - SQLCipher/standard (= 4.5.0)
+  - SQLCipher/common (4.5.0)
+  - SQLCipher/standard (4.5.0):
     - SQLCipher/common
 
 DEPENDENCIES:
@@ -12,7 +12,7 @@ DEPENDENCIES:
   - SQLCipher
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  trunk:
     - SQLCipher
 
 EXTERNAL SOURCES:
@@ -20,9 +20,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LWSQLCipherDB: d61d2307b4c325cbe9ef1295522783b1db6eba58
-  SQLCipher: efbdb52cdbe340bcd892b1b14297df4e07241b7f
+  LWSQLCipherDB: 63d5985d2c8fefa2b3ecc4f8771f2956a03eee7f
+  SQLCipher: 98dc22f27c0b1790d39e710d440f22a466ebdb59
 
-PODFILE CHECKSUM: cd9b95644799a53e30ae09b11401c8163b7ed698
+PODFILE CHECKSUM: fde5dd1e6630eaaf2cf557f5fef35a58bda6ce0e
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.11.2
