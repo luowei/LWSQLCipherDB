@@ -63,6 +63,14 @@ LWSQLCipherDB is available through [CocoaPods](https://cocoapods.org). To instal
 pod 'LWSQLCipherDB'
 ```
 
+For Swift version, use:
+
+```ruby
+pod 'LWSQLCipherDB_swift'
+```
+
+See [Swift Version Documentation](README_SWIFT_VERSION.md) for more details.
+
 Then run:
 
 ```bash
